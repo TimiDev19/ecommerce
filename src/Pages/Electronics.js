@@ -19,11 +19,11 @@ function Electronics() {
         <>
             <div class='w-full flex items-center justify-center py-3 shadow-sm shadow-gray-500'>
                 <ul class='w-full md:w-1/2 m-auto flex flex-wrap items-center justify-between'>
-                    <li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'><a href='/'>All</a></li>
-                    <li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'><a href='/mensclothing'>Men's Clothing</a></li>
-                    <li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'><a href='/womensclothing'>Women's Clothing</a></li>
-                    <li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'><a href='/jewelry'>Jewelry</a></li>
-                    <li class='w-full md:w-auto bg-blue-100 px-2 rounded-xl mb-2 md:mb-0'><a href='/electronics'>Electronics</a></li>
+                    <a href='/'><li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'>All</li></a>
+                    <a href='/mensclothing'><li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'>Men's Clothing</li></a>
+                    <a href='/womensclothing'><li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'>Women's Clothing</li></a>
+                    <a href='/jewelry'><li class='w-full md:w-auto hover:bg-blue-100 duration-300 transition rounded-xl px-2 mb-2 md:mb-0'>Jewelry</li></a>
+                    <a href='/electronics'><li class='w-full md:w-auto bg-blue-100 px-2 rounded-xl mb-2 md:mb-0'>Electronics</li></a>
                 </ul>
             </div>
 
