@@ -7,6 +7,10 @@ import ProductDetails from './Pages/ProductDetails';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Sidebar from './Components/Sidebar';
+import MensClothing from './Pages/MensClothing';
+import FemaleClothes from './Pages/FemaleClothes';
+import Jewelry from './Pages/Jewelry';
+import Electronics from './Pages/Electronics';
 
 function App() {
   return (
@@ -16,6 +20,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/product/:id' element={<ProductDetails/>}/>
+          <Route path='/mensclothing' element={<MensClothing/>}/>
+          {/* <Route path='/womensclothing' element={<WomensClothing/>}/> */}
+          <Route path='/womensclothing' element={<FemaleClothes/>}/>
+          <Route path='/jewelry' element={<Jewelry/>}/>
+          <Route path='/electronics' element={<Electronics/>}/>
         </Routes>
         <Sidebar/>
         <Footer/>
