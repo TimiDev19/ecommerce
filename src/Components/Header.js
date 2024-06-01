@@ -6,7 +6,7 @@ function Header() {
   const {isOpen, setIsOpen} = useContext(SidebarContext)
   return (
     <header className='bg-pink-200 flex flex-row items-center justify-between py-3 px-4'>
-      <div>High Fashion</div>
+      <div className='font-semibold text-2xl'>JMT Fashion</div>
       <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex relative'><BsBag className='text-2xl'/></div>
     </header>
   )
